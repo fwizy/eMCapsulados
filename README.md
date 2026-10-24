@@ -30,17 +30,6 @@ Magnésio Essential, Vitamina D3 e Colágeno Daily traduzem o universo da marca:
 Clareza no que comunicamos. Respeito à individualidade. Cuidado sem promessas exageradas.
 
 Suplementos alimentares não são medicamentos. A escolha e o uso devem contar com orientação de um profissional de saúde.
-
-## Vamos conversar?
-
-**eMCapsulados Wellness Ltda.**  
-Avenida Nebulosa, 1200, sala 308, Caminho das Árvores  
-Salvador, BA · CEP 40000-000  
-contato@emcapsulados.example  
-(71) 90000-0000  
-Segunda a sexta, das 9h às 18h  
-@emcapsulados.wellness
-
 *Apresentação de uma empresa fictícia. Dados cadastrais, produtos, composições e condições comerciais ilustrativos.*
 
 **Pequenos rituais. Novas possibilidades.**
