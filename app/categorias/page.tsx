@@ -1,0 +1,6 @@
+import { assetUrl } from '@/lib/router';
+import Link from '@/lib/router';
+import { ArrowUpRight } from 'lucide-react';
+import { categories,products } from '@/lib/products';
+export const metadata={title:'Categorias',description:'Explore vitaminas, bem-estar, nutrição, beleza, energia e suplementação diária.'};
+export default function Categorias(){return <main id="conteudo" className="inner-page container"><div className="page-intro"><p className="eyebrow dark-eyebrow">SEU UNIVERSO DE WELLNESS</p><h1>Para cada rotina,<br/>um <em>essencial.</em></h1><p>Explore a coleção do seu jeito.</p></div><div className="all-categories">{categories.map((c,i)=>{const p=products.find(p=>p.category===c.id)!;return <Link key={c.id} href={'/produtos?categoria='+c.id} className="large-category" style={{background:c.color+'70'}}><span className="eyebrow dark-eyebrow">{c.number} / ESSENTIAL COLLECTION</span><img src={assetUrl('/products/'+p.id+'.svg')} alt={p.name} width="230" height="270"/><div><h2>{c.name}</h2><p>{c.short}</p><span className="small">{products.filter(p=>p.category===c.id).length} produtos</span></div><span className="category-arrow"><ArrowUpRight size={23}/></span></Link>;})}</div><div className="center-action"><Link className="button primary" href="/produtos">Ver todos os produtos <ArrowUpRight size={18}/></Link></div></main>;}

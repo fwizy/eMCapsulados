@@ -1,0 +1,2 @@
+import Link from '@/lib/router';
+export default function NotFound(){return <main id="conteudo" className="inner-page container"><div className="empty-state"><p className="eyebrow dark-eyebrow">404 / FORA DE ÓRBITA</p><h1>Vamos voltar<br/>ao seu universo?</h1><p>A página que você procura não foi encontrada.</p><Link href="/produtos" className="button primary">Explorar produtos ↗</Link></div></main>;}

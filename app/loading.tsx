@@ -1,0 +1,1 @@
+export default function Loading(){return <main id="conteudo" className="inner-page container"><div className="loading-page" aria-live="polite"><span className="loading-orbit"/><p>Preparando seu universo de cuidado…</p></div></main>;}

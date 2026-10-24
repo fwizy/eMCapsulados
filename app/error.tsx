@@ -1,0 +1,2 @@
+import Link from '@/lib/router';
+export default function ErrorPage({reset}:{reset:()=>void}){return <main id="conteudo" className="inner-page container"><div className="empty-state"><h1>Uma pausa inesperada.</h1><p>Não foi possível carregar esta página.</p><button onClick={reset} className="button primary">Tentar novamente</button><Link className="text-link" href="/">Voltar ao início</Link></div></main>;}
